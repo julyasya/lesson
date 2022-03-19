@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.cs">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <h1 class="page-title">Многоуровневые списки и таблицы</h1>
+    </header>
+    <nav class="main-menu">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>44444
+                Contacts
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section class="section task-one">
+        <h2 class="section-title">Задание 1: Вывести на экран 2 многоуровневых списка</h2>
+        <section class="sub-section sub-section--green">
+            <h3 class="sub-section-title">Маркированый список</h3>
+            <ul>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>
+                    Элемент списка
+                    <ul>
+                        <li>Элемент списка</li>
+                        <li>Элемент списка</li>
+                        <li>
+                            Элемент списка
+                            <ul>
+                                <li>Элемент списка</li>
+                                <li>Элемент списка</li>
+                                <li>Элемент списка
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="sub-section sub-section--blue">
+            <h3 class="sub-section-title">Нумерованный список</h3>
+            <ol>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>Элемент списка
+                    <ol type="a">
+                        <li>Элемент списка</li>
+                        <li>Элемент списка</li>
+                        <li>Элемент списка
+                            <ol type="i">
+                                <li>Элемент списка</li>
+                                <li>Элемент списка</li>
+                                <li>Элемент списка</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </section>
+    </section>
+    <section class="section task-two">
+        <h2 class="section-title">Таблица</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <td colspan="3">ФИО</td>
+                <td colspan="4">Личные данные</td>
+            </tr>
+            <tr class="grey-line">
+                <td>Фамилия</td>
+                <td>Имя</td>
+                <td>Отчество</td>
+                <td>Возраст</td>
+                <td>Пол</td>
+                <td>Телефон</td>
+                <td>Отдел</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Иванов</td>
+                <td>Иван</td>
+                <td>Иванович</td>
+                <td>35 лет</td>
+                <td>Мужской</td>
+                <td>+380991112233</td>
+                <td rowspan="2">отдел маркетинга</td>
+            </tr>
+            <tr>
+                <td>Петрова</td>
+                <td>Нина</td>
+                <td>Сергеевна</td>
+                <td>28 лет</td>
+                <td>женский</td>
+                <td>+380991112233</td>
+            </tr>
+            <tr>
+                <td>Иванов</td>
+                <td>Иван</td>
+                <td>Иванович</td>
+                <td>35 лет</td>
+                <td>Мужской</td>
+                <td>+380991112233</td>
+                <td rowspan="2">отдел маркетинга</td>
+            </tr>
+            <tr>
+                <td>Петрова</td>
+                <td>Нина</td>
+                <td>Сергеевна</td>
+                <td>28 лет</td>
+                <td>женский</td>
+                <td>+380991112233</td>
+            </tr>
+            <tr>
+                <td>Иванов</td>
+                <td>Иван</td>
+                <td>Иванович</td>
+                <td>35 лет</td>
+                <td>Мужской</td>
+                <td>+380991112233</td>
+                <td rowspan="2">отдел маркетинга</td>
+            </tr>
+            <tr>
+                <td>Петрова</td>
+                <td>Нина</td>
+                <td>Сергеевна</td>
+                <td>28 лет</td>
+                <td>женский</td>
+                <td>+380991112233</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        Copyright
+    </footer>
+</main>
+</body>
+</html>

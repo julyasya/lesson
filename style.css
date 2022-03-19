@@ -1,0 +1,57 @@
+body, h1 {
+    margin: 0;
+}
+h1 {
+    color: #1304C3;
+    text-align: center;
+}
+
+.head {
+    font-weight: bolder;
+}
+
+.border {
+    border: #000 solid 1px;
+}
+
+.header {
+    background: #f3f3f3;
+}
+
+.main-menu {
+    text-align: right;
+}
+
+.main-menu ul {
+   padding: 0;
+    margin: 0;
+}
+
+.main-menu > ul > li {
+    display: inline-block;
+    border: black solid 1px;
+    padding: 20px;
+
+}
+
+.main-menu > ul li + li {
+    margin-left: 30px;
+}
+
+.task-two table tr td {
+    padding: 20px;
+}
+
+.task-two table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.task-two  table .grey-line {
+    background-color: #afafaf;
+    font-weight: 700;
+}
+
+.task-two table tr td:nth-child(odd) {
+    background: #afafaf;
+}
